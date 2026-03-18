@@ -1,4 +1,0 @@
-3181759 REGISTER
-   5299 INVITE
-     16 OPTIONS
-     12 Request Line
