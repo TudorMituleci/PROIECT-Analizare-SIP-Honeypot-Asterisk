@@ -1,4 +1,4 @@
-01_Status_Asterisk: Dovada că Asterisk ruleaza ca serviciu de fundal sub utilizatorul securizat asterisk
+01_Status_Asterisk: Dovada ca Asterisk ruleaza ca serviciu de fundal sub utilizatorul securizat asterisk
 
 02_CLI_Asterisk:Command Line Interface unde pot monitoriza in timp real ce se intampla in interiorul centralei.
 
