@@ -3,14 +3,14 @@
 #1.REZUMAT
 
 ## 1.1 Descrierea proiectului
-   Proiectul conta in implementarea unui server de telefonie IP bazat pe platforma Asterisk, expus intentionat in internet pentru a functiona ca un Honeypot. Sistemul a fost creat pentru a atrage, inregistra si analiza tentativele de atac cibernetic Brute Force si Toll Fraud. Intr-un interval de mai putin de 24 de ore, serverul a captat peste 3.1 milioane de evenimente, oferind date despre comportamentul netbots-ilor SIP.
+   Proiectul consta in implementarea unui server de telefonie IP bazat pe platforma Asterisk, expus intentionat in internet pentru a functiona ca un Honeypot. Sistemul a fost creat pentru a atrage, inregistra si analiza tentativele de atac cibernetic Brute Force si Toll Fraud. Intr-un interval de mai putin de 24 de ore, serverul a captat peste 3.1 milioane de evenimente, oferind date despre comportamentul netbots-ilor SIP.
 
 ## 1.2 Descrierea implementarii
-   -Am folosit un VPS in Oracle cu sistem de operare Ubuntu 24.04
-   -Am instalat si configurat Asterisk 20 LTS ca serviciu de fundal sub un utilizator securizat
-   -Am definit endpoint-uri PJSIP cu autentificare complexa pentru a preveni logarile reale, mentinand serverul ca momeala
-   -Am activat modulul de securitate in logger.conf pentru a capta detaliile fiecarei tentative de acces: IP, User Agent, Extensie
-   -Am procesat log-urile utilizand utilitare Linux CLI ex.grep, awk, sed, sort; pentru a genera rapoarte de tip Threat Intelligence.
+-Am folosit un VPS in Oracle cu sistem de operare Ubuntu 24.04
+-Am instalat si configurat Asterisk 20 LTS ca serviciu de fundal sub un utilizator securizat
+-Am definit endpoint-uri PJSIP cu autentificare complexa pentru a preveni logarile reale, mentinand serverul ca momeala
+-Am activat modulul de securitate in logger.conf pentru a capta detaliile fiecarei tentative de acces: IP, User Agent, Extensie
+-Am procesat log-urile utilizand utilitare Linux CLI ex.grep, awk, sed, sort; pentru a genera rapoarte de tip Threat Intelligence.
 
 # 2.INTRODUCERE
 ## 2.1 Prezentarea temei
